@@ -1,5 +1,5 @@
 import java.util.*;
-
+//Press ctr+c to terminate the thread input.
 
 public class prog2thread  extends Thread {
     private Thread t;
@@ -41,21 +41,7 @@ prog2thread( String name){
    }
 
 public void q(double d){
- /*   if (front<rear){
-        rear=(++rear)%64
-           arr[rear]=d;
-           front=(front+1)%64;
-    }
-    else if (front==rear){
-        
-        front=(front+1)%64;
-        
-        arr[rear]=d;
-        rear=(++rear)%64
-   
-    }
-         
-*/
+
 arr[pos]=d;
 
 
@@ -66,7 +52,7 @@ while(pos!=tem){
 }
 System.out.println("-----------------------------------------------------------------------------------------------");
 pos=(pos+1)%64;
-    //System.out.println(Arrays.toString(arr));
+
 
 }
 
