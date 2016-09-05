@@ -1,5 +1,5 @@
 import java.util.*;
-
+//Press ctr+c to terminate the program
 
 public class prog2thread  extends Thread {
     private Thread t;
